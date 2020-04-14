@@ -32,12 +32,12 @@ class ViewController: UIViewController, PKCanvasViewDelegate {
     }
 
     func canvasViewDidBeginUsingTool(_ canvasView: PKCanvasView) {
-        // Using it for trolling purposes :D
-        guard let toolPicker = toolPicker else { return }
-
-        if let inkingTool = toolPicker.selectedTool as? PKInkingTool {
-            canvasView.backgroundColor = inkingTool.color
-        }
+        // Uncomment these lines it you want to troll someone :D
+//        guard let toolPicker = toolPicker else { return }
+//
+//        if let inkingTool = toolPicker.selectedTool as? PKInkingTool {
+//            canvasView.backgroundColor = inkingTool.color
+//        }
     }
 }
 
